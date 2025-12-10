@@ -1,0 +1,8 @@
+query getCharactersPage {
+    character1: character(page: 1) {
+        id
+        name
+        status
+        page
+    }
+}

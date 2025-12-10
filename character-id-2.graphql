@@ -1,0 +1,11 @@
+query GetCharacterDetails {
+  # Alias for Character ID 2
+  character1: character(id: 2) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}

@@ -1,0 +1,11 @@
+query GetCharactersByPage {
+  # Alias for Page 2
+  page2: characters(page: 2) {
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
